@@ -14,6 +14,7 @@ public class Base1_class {
 		driver.get("https://kite.zerodha.com/");
 		
 		driver.manage().window().maximize();
+		System.out.println("suresh");
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 	}
